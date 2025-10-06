@@ -1,0 +1,700 @@
+:root {
+  --blue: #1089ff;
+  --ag: #fff;
+}
+
+.button {
+  letter-spacing: 0.1rem;
+  background: var(--blue);
+  border-radius: 5px;
+  color: var(--ag);
+  padding: 0.5rem 1rem;
+}
+
+body {
+  background-color: var(--ag);
+  margin: 0;
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-family:
+    "Muli",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+.container {
+  margin: auto;
+  max-width: 540px;
+  padding: 0 15px;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+.header-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 15px;
+}
+.bar {
+  font-size: 1.75rem;
+}
+.nav-contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.nav_items {
+  display: none;
+  align-items: center;
+}
+.nav_items p {
+  font-size: 1.2rem;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.nav_items span {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.icon_span {
+  font-size: 20px;
+  line-height: 0;
+  display: flex;
+  color: var(--ag) !important;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue);
+}
+#logo {
+  width: 50%;
+  display: flex;
+}
+nav {
+  display: none;
+  background-color: var(--blue);
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  padding: 8px 0;
+}
+menu {
+  display: flex;
+  justify-content: center;
+}
+menu li {
+  display: flex;
+}
+menu li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  margin: 20px 20px;
+  color: var(--ag);
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.7;
+}
+.active {
+  border-bottom: 2px solid var(--ag);
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  background: url("https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg.webp")
+    center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 15px;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+h1 {
+  font: 300 2rem;
+  color: #fff;
+}
+h2 {
+  font: 500 1.75rem;
+  color: #000 !important;
+  color: inherit;
+}
+h3 {
+  font-size: 20px;
+  color: #000;
+  margin: 30px 0 8px 0;
+}
+h4 {
+  font-size: 1.75rem;
+  color: #000;
+  font-weight: 500;
+}
+h6 {
+  font-size: 1.1rem;
+  font-family: "Dancing Script", sans-serif;
+  color: var(--blue);
+}
+.slider-content p {
+  color: #fff;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.slider-content a {
+  text-transform: uppercase;
+  width: 140px;
+  font:
+    12px "Oswald",
+    sans-serif;
+  display: block;
+  margin: auto;
+  letter-spacing: 0.1rem;
+  background: var(--blue);
+  border-radius: 5px;
+  color: var(--ag);
+  padding: 0.5rem 1rem;
+}
+.row1 {
+  padding-bottom: 3rem !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+.col1 img {
+  width: 100%;
+  height: auto;
+}
+hr {
+  margin: 30px 0;
+  background: var(--blue);
+  border: 0;
+  height: 2px;
+  width: 60px;
+}
+.art-content p {
+  margin-bottom: 1rem;
+  font-family:
+    "Muli",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+.art-content a {
+  width: 147px;
+}
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.col2 {
+  width: 100%;
+  padding: 0 15px;
+}
+.col2 span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #efefef;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  color: var(--blue);
+  font-size: large;
+  font-size: 70px;
+  position: relative;
+}
+.col2 span img {
+  width: 70px;
+  top: -5px;
+  position: absolute;
+}
+.col2 p {
+  margin-bottom: 1rem;
+}
+.statistic {
+  background: url("https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp")
+    center/cover;
+}
+.statistic,
+.statistic2 {
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  padding: 2.5rem 0;
+  color: var(--ag);
+}
+.statistic::after,
+.statistic2::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 100%;
+
+  background: rgba(16, 137, 255, 0.8);
+}
+.statistic .row1 {
+  padding: 0 !important;
+}
+.statistic .container,
+.statistic2 .container {
+  position: relative;
+  z-index: 1;
+}
+.col3 {
+  flex: 1 1 45%;
+  text-align: center;
+}
+.col3 p {
+  font:
+    500 50px "Oswald",
+    sans-serif;
+  color: var(--ag);
+  margin-bottom: 0.5rem;
+}
+.col3 span {
+  line-height: 1.7;
+  color: var(--ag);
+  font: 300 1.1rem;
+}
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2.5rem 0;
+  background: #f8f9fa;
+}
+.section-head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem !important;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card {
+  flex: 1 1 100%;
+
+  margin-bottom: 1.5rem !important;
+}
+.card img {
+  width: 100%;
+}
+.card-content {
+  padding: 1.5rem !important;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--ag);
+}
+.card-content a {
+  color: #000;
+  font:
+    500 18px "Oswald",
+    sans-serif;
+}
+.card-content a span {
+  color: var(--blue);
+  margin-right: 0.25rem !important;
+}
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-box span {
+  font-family: "icomoon" !important;
+}
+.content-box button {
+  height: 32px;
+  border: 1px solid var(--blue);
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-div img {
+  max-width: 100%;
+}
+.div-contact,
+.img-div {
+  padding: 0px 15px;
+}
+form label {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+form select,
+form textarea {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+form textarea {
+  height: 133px;
+}
+form .button {
+  border: 1px solid var(--blue);
+  margin-top: 1rem;
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  height: 54px;
+
+  max-width: 180px;
+}
+.team-section {
+  padding: 2.5rem 0;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.team-card {
+  padding: 15px 15px;
+  width: 100%;
+  position: relative;
+}
+.team-card span {
+  color: var(--blue);
+}
+.team-card:hover img {
+  transform: scale(1.05);
+}
+.cardimg {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.cardimg img {
+  width: 100%;
+  z-index: 1;
+  transition: 0.3s all ease;
+}
+.social {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+  flex-direction: column;
+}
+
+.social a {
+  display: flex;
+  margin-bottom: 10px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: #fff;
+  color: var(--blue);
+  transition: 0.3s all ease;
+}
+.social a:hover {
+  background: #000;
+  color: var(--ag);
+}
+.customer-review {
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-review {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1.5rem !important;
+}
+.card-review > p {
+  padding: 30px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 30px;
+  position: relative;
+  border-radius: 4px;
+  font-style: italic;
+  z-index: 1;
+  font-size: 16px;
+}
+.card-review > p span {
+  color: var(--blue);
+  position: absolute;
+  font-family: "icomoon";
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+  font-size: 30px;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: initial;
+  margin-right: 1rem;
+}
+.person p {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 4px;
+}
+.person span {
+  font-size: 14px;
+  color: #ccc;
+}
+.statistic2 {
+  background: url("https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg")
+    center/cover;
+}
+.contact-txt {
+  max-width: 665px;
+  margin: auto;
+
+  text-align: center;
+  color: var(--ag);
+}
+.contact-txt h2 {
+  font-size: 2rem;
+  color: var(--ag) !important;
+}
+.contact-txt p {
+  font: 300 1.25rem;
+  margin-bottom: 1rem;
+}
+.contact-txt a {
+  background-color: #ff8906;
+  display: inline-block;
+  border-color: #f88200;
+  padding: 0.5rem 1.5rem;
+}
+footer {
+  padding: 4rem 0;
+}
+.footer-logo img {
+  width: auto;
+}
+.footer-heading {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.footer-heading span {
+  border-bottom: 2px solid var(--blue);
+}
+.list-unstyled a{
+  text-decoration: none;
+}
+@media only screen and (min-width: 990px) {
+  .container {
+    max-width: 1140px;
+  }
+  .custopmer-review {
+    padding: 5rem 0;
+  }
+  .nav_items {
+    width: 25%;
+    display: flex;
+  }
+  #logo {
+    width: 25%;
+  }
+  .slider-content a {
+    width: 186px;
+    font-size: 14px;
+    padding: 1rem 3rem;
+  }
+  .slider-content p {
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .bar {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  .slider-content {
+    max-width: 59%;
+  }
+  .col1 a {
+    padding: 1rem 1.5rem !important;
+  }
+  .row2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .statistic {
+    padding: 5rem 0;
+  }
+  .card {
+    flex: 1 1 33.33%;
+  }
+  .cards-section {
+    padding: 5rem 0;
+  }
+  .team-section {
+    padding: 5rem 0;
+  }
+  .team-card {
+    flex: 1 1 25%;
+  }
+  .card-review {
+    max-width: 33.33%;
+  }
+  .contact-txt {
+    padding: 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+  .container {
+    max-width: 740px;
+  }
+  .slider-content {
+    max-width: 80%;
+  }
+  .slider-content a {
+    width: 186px;
+    font-size: 14px;
+    padding: 1rem 3rem;
+  }
+  .slider-content p {
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    flex: 1 1 50%;
+  }
+  .team-card {
+    width: 50%;
+  }
+  .card-review {
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col1 {
+    flex-direction: row;
+  }
+  .resevation {
+    display: flex;
+  }
+  .div-contact,
+  .img-div {
+    flex: 1 1 50%;
+  }
+  .col1 img {
+    width: 50%;
+    height: auto;
+    padding: 0 15px;
+  }
+  .art-content {
+    padding: 0 15px;
+  }
+  .col3 {
+    flex: 1 1 200px;
+  }
+  .card {
+    padding: 0px 15px;
+  }
+  .team-cards {
+    flex-direction: row;
+  }
+  .cards-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-txt a {
+    padding: 1rem 3rem !important;
+  }
+}
